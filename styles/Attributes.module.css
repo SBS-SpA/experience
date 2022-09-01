@@ -1,0 +1,11 @@
+.description span {
+    color: white;
+}
+
+.description b {
+    color: white;
+}
+
+.description ul {
+    list-style: inside;
+}

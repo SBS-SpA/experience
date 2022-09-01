@@ -1,0 +1,4 @@
+.attribute {
+	transition-property: opacity;
+	transition-duration: 100ms;
+}

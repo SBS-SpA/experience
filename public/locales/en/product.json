@@ -1,0 +1,15 @@
+{
+    "notFound": "Product not found",
+    "scanAnother": "Scan another code",
+    "overview": "Overview",
+    "attributes": "Attributes",
+    "gallery": "Gallery",
+    "description": "Description",
+    "shareTo": "Share to",
+    "shareText": "See%20this%20product%20on%20",
+    "qrCode": "QR code",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied to clipboard!",
+    "cancel": "Cancel",
+    "backToTop": "Back to top"
+}

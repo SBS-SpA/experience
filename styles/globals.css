@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap');
+
+html {
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+@keyframes flip {
+    0% {
+        transform: scale(1, 1);
+    }
+    5% {
+        transform: scale(1, 1);
+    }
+    20% {
+        transform: scale(-1, 1);
+    }
+    30% {
+        transform: scale(-1, 1);
+    }
+    45% {
+        transform: scale(-1, -1);
+    }
+    55% {
+        transform: scale(-1, -1);
+    }
+    70% {
+        transform: scale(1, -1);
+    }
+    80% {
+        transform: scale(1, -1);
+    }
+    95% {
+        transform: scale(1, 1);
+    }
+}
+
+.animation-flip {
+    animation: flip 4s linear infinite;
+}
+
+.symbol {
+    fill: currentColor;
+    fill-opacity: 0;
+    stroke: currentColor;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 286;
+    stroke-dashoffset: 287;
+}
+
+.first-letter {
+    fill: currentColor;
+    fill-opacity: 0;
+    stroke: currentColor;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 399;
+    stroke-dashoffset: 400;
+}
+
+.second-letter {
+    fill: currentColor;
+    fill-opacity: 0;
+    stroke: currentColor;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 294;
+    stroke-dashoffset: 295;
+}
+
+.third-letter {
+    fill: currentColor;
+    fill-opacity: 0;
+    stroke: currentColor;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 399;
+    stroke-dashoffset: 400;
+}
+
+@keyframes draw-logo {
+    85% {
+        stroke-dashoffset: 0;
+    }
+    90% {
+        stroke-dashoffset: 0;
+        fill-opacity: 0;
+        stroke-width: 1px;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+        stroke-width: 0;
+    }
+}
+
+.animate-logo {
+    animation: draw-logo 1.25s linear forwards;
+}
+
+.x-loader {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 335 335;
+    stroke-dashoffset: 0;
+    margin: 0 -6px;
+}
+
+@keyframes draw-logo-infinite {
+    from {
+        stroke-dashoffset: 335;
+    }
+    to {
+        stroke-dashoffset: -335;
+    }
+}
+
+.animation-draw-infinite {
+    animation: draw-logo-infinite 2s linear infinite;
+}
