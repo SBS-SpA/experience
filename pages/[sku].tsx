@@ -39,7 +39,7 @@ type Data = {
 
 const localesAccepted: any = {
 	// de: 'de_DE',
-	en: 'en_US',
+	en: 'en_GB',
 	// es: 'es_ES',
 	// fr: 'fr_FR',
 	it: 'it_IT',
